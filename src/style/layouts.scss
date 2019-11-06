@@ -1,0 +1,61 @@
+.aboutme-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .left {
+        width:45vw;
+        height: calc(100vh - 84px);
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: calc(100vh - 84px);
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .left {
+        width:45vw;
+        height: calc(100vh - 84px);
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: calc(100vh - 84px);
+
+        .contact-bullet-points {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 21px;
+
+            .contact-item-wrapper {
+                display:flex;
+                align-items: center;
+
+                .icon {
+                    font-size: 2em;
+                    color: $teal;
+                }
+
+
+            }
+
+            .contact-item-wrapper h1 {
+                font-size: 1.5em ;
+                font-weight: 900;
+                margin-left: 21px;
+            }
+        }
+    }
+}
